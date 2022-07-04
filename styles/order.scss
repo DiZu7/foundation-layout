@@ -1,0 +1,108 @@
+.order {
+  padding: 50px 15px;
+  background-color: $color-light;
+
+  @include for-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 73px 0 72px 0;
+  }
+
+  &__illustration {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+
+    @include for-desktop {
+      max-width: 269px;
+      height: 296px;
+      margin: 0;
+      margin-right: 121px;
+    }
+  }
+
+  &__details {
+    max-width: 555px;
+  }
+
+  &__title {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.25px;
+
+    @include for-desktop {
+      margin: 0;
+      margin-top: 33px;
+      text-align: left;
+    }
+  }
+  &__text {
+    margin: 0;
+    margin-top: 18px;
+    font-size: 22px;
+    line-height: 32px;
+    @include for-desktop {
+      margin-top: 12px;
+    }
+  }
+
+  &__form {
+    @include for-desktop {
+      display: flex;
+      margin-top: 26px;
+    }
+  }
+  &__email {
+    height: 48px;
+    width: 100%;
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 13px;
+    text-align: center;
+    border: 1px solid $border-color;
+    border-radius: 2px;
+    background-color: #fff;
+
+    @include for-desktop {
+      margin-top: 0;
+    }
+
+    &::placeholder {
+      color: $color-dark;
+    }
+  }
+
+  &__button {
+    margin-top: 12px;
+    @include for-mobile {
+      width: 100%;
+    }
+
+    @include for-desktop {
+      margin-top: 0;
+      margin-left: 10px;
+      flex-shrink: 0;
+    }
+  }
+  &__terms {
+    font-size: 14px;
+    line-height: 22px;
+    color: $text-color-light-grey;
+    @include for-desktop {
+      margin: 0;
+      margin-top: 10px;
+      flex-shrink: 0;
+    }
+  }
+
+  &__terms-link {
+    color: $text-color-blue;
+  }
+}
+
+.action-button {
+}

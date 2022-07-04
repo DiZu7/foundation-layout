@@ -1,0 +1,43 @@
+.customers {
+  display: flex;
+  flex-direction: column;
+  
+  @include for-desktop {
+    flex-direction: row;
+    width: 1140px;
+    margin: auto;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 106px;
+  }
+
+  &__row {
+    display: flex;
+    @include for-desktop {
+      flex: 1;
+    }
+  }
+
+  &__item {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 107px;
+    height: 94px;
+    border-bottom: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    
+    &:last-child {
+      border-right: none;
+    }
+    @include for-desktop {
+      border: none;
+    }
+  }
+
+  &__logo {
+    max-width: 80%;
+    filter: brightness(0);
+  }
+}

@@ -1,0 +1,36 @@
+.about {
+  width: 100%;
+  background-color: #f4f5f7;
+  padding: 46px 15px;
+
+  @include for-desktop {
+    display: flex;
+    justify-content: space-between;
+    padding: 77px 130px 76px;
+  }
+}
+
+.article {
+  width: 100%;
+  font-size: 22px;
+  line-height: 32px;
+  &:last-child {
+    margin-top: 20px;
+    @include for-desktop {
+      margin-top: 0;
+    }
+  }
+  @include for-desktop {
+    width: 555px;
+  }
+
+  &__title {
+    font-weight: 700;
+    margin: 0;
+  }
+
+  &__text {
+    margin-bottom: 0;
+    margin-top: 6px;
+  }
+}
