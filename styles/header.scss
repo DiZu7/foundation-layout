@@ -41,7 +41,7 @@
     display: inline-block;
     width: 18px;
     height: 13px;
-    background-image: url('img/icon-hamburger.png');
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
     @include for-desktop {
       display: none;
     }
@@ -72,7 +72,7 @@
   }
   &__arrow {
     display: inline-block;
-    background-image: url(img/arrow.png);
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png');
     position: absolute;
     top: 12px;
     width: 8px;
