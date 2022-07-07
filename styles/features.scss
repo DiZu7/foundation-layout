@@ -1,6 +1,7 @@
 .features {
   position: relative;
   display: flex;
+  margin-bottom: 103px;
   @include for-mobile {
     display: none;
   }
@@ -25,7 +26,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 34px;
-    color: $text-color-green;
+    color: #009b4d;
   }
 
   &__title {

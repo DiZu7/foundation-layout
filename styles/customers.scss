@@ -1,14 +1,12 @@
 .customers {
   display: flex;
   flex-direction: column;
-  
+
   @include for-desktop {
     flex-direction: row;
     width: 1140px;
     margin: auto;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 106px;
   }
 
   &__row {
@@ -27,7 +25,7 @@
     height: 94px;
     border-bottom: 1px solid #e3e3e3;
     border-right: 1px solid #e3e3e3;
-    
+
     &:last-child {
       border-right: none;
     }
@@ -39,5 +37,18 @@
   &__logo {
     max-width: 80%;
     filter: brightness(0);
+  }
+}
+
+.customers-first {
+  @include for-desktop {
+    margin-top: 30px;
+    margin-bottom: 106px;
+  }
+}
+.customers-second {
+  @include for-desktop {
+    margin-top: 43px;
+    margin-bottom: 76px;
   }
 }
