@@ -1,10 +1,11 @@
 .feedback {
-  position: relative;
-  padding: 0 15px;
-  @include for-desktop {
-    padding: 0 130px;
+  &__container {
+    position: relative;
+    padding: 0 15px;
+    @include for-desktop {
+      padding: 0 130px;
+    }
   }
-
   &__subtitle {
     font-weight: 700;
     font-size: 24px;

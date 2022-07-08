@@ -46,3 +46,17 @@
   width: 7px;
   height: 12px;
 }
+
+.hide_desktop {
+  border-top: 1px solid #e3e3e3;
+  @include for-desktop {
+    display: none;
+  }
+}
+
+.hide_mobile {
+  display: none;
+  @include for-desktop {
+    display: block;
+  }
+}

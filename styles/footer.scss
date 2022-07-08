@@ -2,18 +2,16 @@
   margin-top: auto;
   display: flex;
   flex-direction: column;
-  padding: 0 15px;
+  // padding: 0 15px;
   @include for-desktop {
     padding: 0;
   }
 
   &__line {
-    display: none;
+    border-top: 1px solid #2b292d1a;
+    width: 100%;
     @include for-desktop {
-      display: block;
       width: 100%;
-      border-top: 1px solid #2b292d;
-      opacity: 0.1;
       margin: 0;
     }
   }
@@ -38,9 +36,10 @@
 }
 
 .footer-navigation {
-  width: 100%;
+  // width: 100%;
   display: flex;
   flex-direction: column;
+  // margin: 0 15px;
   @include for-desktop {
     width: 1140px;
     margin: 0 auto;
@@ -51,7 +50,6 @@
 
 .about-company {
   padding: 40px 0;
-  border-bottom: 1px solid #e3e3e3;
   @include for-desktop {
     margin-top: 44px;
     padding: 0;
@@ -112,7 +110,9 @@
 .additional-navigation {
   display: flex;
   flex-direction: column;
+  margin: 0 15px;
   @include for-desktop {
+    margin: 0;
     margin-top: 60px;
     margin-left: auto;
     flex-direction: row;
@@ -154,6 +154,7 @@
 .footer-links {
   display: flex;
   flex-direction: column;
+  margin: 0 15px;
 
   @include for-desktop {
     width: 1140px;
@@ -190,7 +191,8 @@
     display: flex;
     align-items: center;
     margin-left: auto;
-    margin-top: 0;
+    margin-top: 17px;
+    
   }
   &__item {
     margin-right: 20px;
