@@ -64,13 +64,13 @@
   overflow: hidden;
 
   &:hover {
-    background-color: #3141c5;
+    background-color: $color-dark-blue;
 
     .vacancy__title {
-      color: #fff;
+      color: $text-color-white;
     }
     .vacancy__location {
-      color: #fff;
+      color: $text-color-white;
     }
     .vacancy__arrow-container {
       background-color: transparent;
@@ -113,9 +113,9 @@
     align-items: center;
     width: 50px;
     margin-left: auto;
-    background-color: #d5d4d5;
+    background-color: $color-grey;
     @include for-desktop {
-      background-color: #fff;
+      background-color: $color-white;
     }
   }
 }

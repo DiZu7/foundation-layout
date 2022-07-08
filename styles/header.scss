@@ -1,5 +1,5 @@
 .top-section {
-  background-color: #f3c6bd;
+  background-color: $color-light-orange;
   @include for-desktop {
     padding-top: 39px;
   }
@@ -11,13 +11,13 @@
   padding-left: 15px;
   height: 64px;
   width: 100%;
-  background-color: #fff;
+  background-color: $color-white;
   @include for-desktop {
     width: 1140px;
     height: 62px;
     margin: auto;
     display: flex;
-    background-color: #f3c6bd;
+    background-color: $color-light-orange;
   }
 
   &__button {
@@ -31,7 +31,7 @@
     height: 100%;
     margin-left: auto;
     border: none;
-    border-left: 1px solid #00000026;
+    border-left: 1px solid $color-black-op15;
     background-color: transparent;
     @include for-desktop {
       display: none;
@@ -58,7 +58,7 @@
     position: relative;
   }
   &__item {
-    color: #2b292d;
+    color: $color-dark;
     text-decoration: none;
     line-height: 25px;
     font-size: 18px;
@@ -112,7 +112,7 @@
       display: inline;
       font-size: 18px;
       line-height: 25px;
-      color: #2b292d;
+      color: $color-dark;
       opacity: 0.6;
     }
   }

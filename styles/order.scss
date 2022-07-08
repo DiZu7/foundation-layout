@@ -65,7 +65,7 @@
     text-align: center;
     border: 1px solid $border-color;
     border-radius: 2px;
-    background-color: #fff;
+    background-color: $color-white;
 
     @include for-desktop {
       margin-top: 0;

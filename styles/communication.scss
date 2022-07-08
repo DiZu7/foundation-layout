@@ -19,7 +19,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 34px;
-    color: #0189d1;
+    color: $text-color-light-blue;
     @include for-desktop {
       margin-top: 13px;
     }
@@ -76,7 +76,7 @@
   &__line {
     margin-top: 40px;
     width: 150px;
-    border-bottom: 1px solid #0000001a;
+    border-bottom: 1px solid $color-light-black;
     @include for-desktop {
       margin-top: 26px;
     }
@@ -112,6 +112,6 @@
     display: block;
     margin-top: 10px;
     font-weight: 700;
-    color: #3040c4;
+    color: $color-pure-blue;
   }
 }
