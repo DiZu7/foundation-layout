@@ -7,8 +7,8 @@
   </head>
   <body>
     <h1>Foundation-layout Project</h1>
-    <a href="https://dizu7.github.io/foundation-layout/"><h2>Link</h2></a>
-    <span>Layout supports mobile (up-to-1400) and desktop (1400) versions </span>
+    <a href="https://dizu7.github.io/foundation-layout/">Project Link</a>
+    <div>Layout supports mobile (up-to-1400) and desktop (1400) versions</div>
     <div>
       <h3>The tech stack is:</h3>
       <ul>
