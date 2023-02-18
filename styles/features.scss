@@ -1,6 +1,7 @@
 .features {
   position: relative;
   display: flex;
+  margin-top: 76px;
   margin-bottom: 103px;
   @include for-mobile {
     display: none;
