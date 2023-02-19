@@ -2,6 +2,8 @@
 
 ### [Site link](https://dizu7.github.io/foundation-layout/)
 
+Layout supports mobile (up to 1400) and desktop (after 1400) versions.  
+
 
 ### The tech stack is:
 

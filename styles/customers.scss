@@ -4,7 +4,7 @@
 
   @include for-desktop {
     flex-direction: row;
-    width: 1140px;
+    width: 1225px;
     margin: auto;
     align-items: center;
   }
@@ -12,13 +12,14 @@
   &__row {
     display: flex;
     @include for-desktop {
-      flex: 1;
+      flex: 1 0 0;
     }
   }
 
   &__item {
     display: flex;
     flex: 1;
+    flex: 1 0 0;
     justify-content: center;
     align-items: center;
     width: 107px;

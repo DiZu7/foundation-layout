@@ -552,7 +552,7 @@
 @media screen and (min-width: 1400px) {
   .customers {
     flex-direction: row;
-    width: 1140px;
+    width: 1225px;
     margin: auto;
     align-items: center;
   }
@@ -562,12 +562,13 @@
 }
 @media screen and (min-width: 1400px) {
   .customers__row {
-    flex: 1;
+    flex: 1 0 0;
   }
 }
 .customers__item {
   display: flex;
   flex: 1;
+  flex: 1 0 0;
   justify-content: center;
   align-items: center;
   width: 107px;
